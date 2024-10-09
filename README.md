@@ -10,15 +10,15 @@ Esta API está diseñada para gestionar una base de datos de usuarios utilizando
 
 - **FastAPI**: Framework web para construir APIs.
 - **SQLAlchemy**: ORM para interactuar con bases de datos.
-- **Pydantic**: Para la validación de datos para hacer uso de BaseModel.
+- **Pydantic**: Para la validación y gestión de datos mediante `BaseModel`.
 
 ## Rutas de la API
 
 ### Usuarios (`/users`)
 
 - **GET** `/users`: Obtiene todos los usuarios.
-- **POST** `/users`: Crea un nuevo usuarios.
-- **PUT** `/users`: Actualiza un usuarios existente (requiere ID).
+- **POST** `/users`: Crea un nuevo usuario.
+- **PUT** `/users`: Actualiza un usuario existente (requiere ID).
 - **DELETE** `/users/{id}`: Elimina un usuario por ID.
 
 ## Ejecución del Proyecto
